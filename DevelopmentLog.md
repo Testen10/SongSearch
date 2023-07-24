@@ -20,3 +20,33 @@
 구상
 =====
 우선 goodnotes를 켜서 아이디어를 정리해보기로 했다.
+<br><img src="https://github.com/Testen10/SongSearch/assets/140326092/fa6c891e-ca32-4fc4-9da2-5321d64ca5e7" width="417" height="540">
+<img src="https://github.com/Testen10/SongSearch/assets/140326092/f4e0ba93-9c12-4f23-a5cc-cc0474c5dba9" width="417" height="540">
+<br>곡의 링크를 입력값으로 받는다는 가정 하에, success criteria를 작성해보았다.
+> <ol>
+> <li>Input
+>  <ol>
+>   <li>곡의 유튜브 영상 링크를 입력값으로 받을 것</li>
+>   </ol>
+>  </li>
+> <li>Button
+>  <ol>
+>   <li>검색 버튼이 있을 것</li>
+>   <li>음원 사이트 별로 버튼이 있을 것</li>
+>   <li>음원 사이트 버튼은 여러 개를 동시에 선택할 수 있을 것</li>
+>   </ol>
+>  </li>
+> <li>Function
+>  <ol>
+>   <li>검색 버튼을 누를 경우, 선택한 버튼의 음원 사이트에서 검색을 자동으로 진행할 것</li>
+>   <li>존재하지 않는 영상의 링크인 경우, 에러 메시지 띄우기</li>
+>   <li>링크 형식의 input값이 아닌 경우, 에러 메시지 띄우기</li>
+>   <li>음원 사이트 버튼이 하나도 눌리지 않았을 경우, 에러 메시지 띄우기</li>
+>   </ol>
+>  </li>
+> </ol>
+
+API
+=====
+이 프로그램은 유튜브 링크를 통해 영상의 이름과 작곡가의 이름을 받아올 수 있도록 하는 api가 필요하다. 검색해보니, 구글에서 제공해주는 유튜브 api가 있었다.
+<a href="https://developers.google.com/youtube/v3/getting-started?hl=ko" target="_blank" rel="noopener noreferrer">Youtube API</a>.
