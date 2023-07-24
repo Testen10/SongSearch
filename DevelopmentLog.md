@@ -49,4 +49,35 @@
 API
 =====
 이 프로그램은 유튜브 링크를 통해 영상의 이름과 작곡가의 이름을 받아올 수 있도록 하는 api가 필요하다. 검색해보니, 구글에서 제공해주는 유튜브 api가 있었다.
-<a href="https://developers.google.com/youtube/v3/getting-started?hl=ko" target="_blank">Youtube API</a>.
+<a href="https://developers.google.com/youtube/v3/getting-started?hl=ko" target="_blank">Youtube API</a>
+<br>게시글을 읽어보니, 영상의 제목을 가져오는 기능은 있지만 채널의 id가 아닌 이름을 가져오는 기능은 보이지 않았다. 따로 찾아본 <a href="https://youtu.be/KcPimbou-kI" target="_blank">이 영상</a>을 참고하기로 했다. 제대로 작동하는지 확인해야 하기 때문에 파이썬에서 간단하게 실험해보았다.
+<p> 우선 conda를 사용해 프로젝트를 진행할 새 가상환경을 구축하고 필요한 라이브러리들을 install 했다.<br>
+<pre><code>conda create -n SongSearch python=3.9.7
+conda activate SongSearch
+pip install beautifulsoup4
+pip install requests
+</code></pre>
+그 다음, 앞에서 언급한 영상의 코드를 그대로 복사하여 파이썬을 실행했다.
+<code><pre>import re
+import json
+import requests
+from bs4 import BeautifulSoup
+
+URL = "https://www.youtube.com/@YouTube/about"
+soup = BeautifulSoup(requests.get(URL, cookies={'CONSENT': 'YES+1'}).text, "html.parser")
+data = re.search(r"var ytInitialData = ({.*});", str(soup.prettify())).group(1)
+
+json_data = json.loads(data)
+
+channel_id =json_data['header']['c4TabbedHeaderRenderer']['channelId']
+channel_name =json_data['header']['c4TabbedHeaderRenderer']['title']
+channel_logo =json_data['header']['c4TabbedHeaderRenderer']['avatar']['thumbnails'][2]['url']
+
+print(channel_id)
+print(channel_name)
+print(channel_logo) </code></pre>
+다행히 잘 나온다.
+<code><pre>UCBR8-60-B28hp2BmDPdntcQ
+YouTube
+https://yt3.googleusercontent.com/584JjRp5QMuKbyduM_2k5RlXFqHJtQ0qLIPZpwbUjMJmgzZngHcam5JMuZQxyzGMV5ljwJRl0Q=s176-c-k-c0x00ffffff-no-rj
+</code></pre>
