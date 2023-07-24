@@ -49,4 +49,4 @@
 API
 =====
 이 프로그램은 유튜브 링크를 통해 영상의 이름과 작곡가의 이름을 받아올 수 있도록 하는 api가 필요하다. 검색해보니, 구글에서 제공해주는 유튜브 api가 있었다.
-<a href="https://developers.google.com/youtube/v3/getting-started?hl=ko" target="_blank" rel="noopener noreferrer">Youtube API</a>.
+<a href="https://developers.google.com/youtube/v3/getting-started?hl=ko" target="_blank">Youtube API</a>.
