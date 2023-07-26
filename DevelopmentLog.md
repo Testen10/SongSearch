@@ -190,3 +190,14 @@ service = Service(executable_path='./chromedriver.exe')</code></pre>
 Flowchart / WireFrame
 =====
 구상이 끝났으니 본격적으로 flowchar와 wireframe을 그려보았다. 유저 친화성을 위해 추가적으로 앱 기능 설명 도움말을 넣었다.
+<p>Flowchart
+<br>
+  <img height="600" alt="main_flowchart" src="https://github.com/Testen10/SongSearch/assets/140326092/23c509b8-0d48-43c2-a807-8aeb75a9a2ec">
+  <img height="600" alt="getSongInfo_flowchart" src="https://github.com/Testen10/SongSearch/assets/140326092/4a2540b2-b834-4c15-971c-4dcc33bdf324">
+  <img height="600" alt="searchSong_flowchart" src="https://github.com/Testen10/SongSearch/assets/140326092/523c88a4-2296-4d7c-abda-c784eecb79c1">
+  <img height="600" alt="showHelpWindow_flowchart" src="https://github.com/Testen10/SongSearch/assets/140326092/461e5b0d-02a9-4912-887a-0e91ea2fa490">
+<p>WireFrame
+<br>
+  <img height="600" src="https://github.com/Testen10/SongSearch/assets/140326092/1b2c9f07-30e4-4fa6-8f36-b4f766eff426">
+  <img height="600" src="https://github.com/Testen10/SongSearch/assets/140326092/547e9b7f-d1cb-4338-9873-5b58bc967e7d">
+  <img height="600" src="https://github.com/Testen10/SongSearch/assets/140326092/b685b87a-2146-403d-bdae-9689ac2c74a9">
