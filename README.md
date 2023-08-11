@@ -64,5 +64,5 @@ version: 3.9.7
 <p> Jul 24, 2023 ~ Aug 10, 2023</p>
 
 ## Contact
-<p> 오류나 질문 사항 접수: <a href="pushoong.com/9746204848?c=3", target='_blank'>푸슝</a>
+<p> 오류나 질문 사항 접수: <a href="https://pushoong.com/ask/9746204848", target='_blank'>푸슝</a>
 
