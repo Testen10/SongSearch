@@ -44,6 +44,7 @@ version: 3.9.7
 <img width="823" alt="urlLink" src="https://github.com/Testen10/SongSearch/assets/140326092/e0bfe2d9-9177-47b6-b40f-fff47e3a4fa0">
 <p>
   곡의 유튜브 링크를 붙여넣고 '곡 정보 가져오기' 버튼을 누르면 영상의 썸네일, 영상의 제목, 그리고 채널명이 자동으로 복사됩니다.
+  <br>만약 복사 붙여넣기가 안 되는 경우, 아무 알파벳이나 입력하고 지운 후 다시 붙여넣으시면 됩니다.
 </p>
 
 ### 3. 검색어 수정 및 포함 유무 결정
@@ -63,8 +64,6 @@ version: 3.9.7
 
 ## 사용 예시
 https://github.com/Testen10/SongSearch/assets/140326092/343d093b-48e2-4c56-85e2-9282abebd508
-
-
 
 ## 개발 기간
 <p> Jul 24, 2023 ~ Aug 10, 2023</p>
