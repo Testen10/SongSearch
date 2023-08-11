@@ -9,3 +9,15 @@
     <li>선택한 음원 사이트들에서 입력된 키워드들을 자동으로 검색해줍니다.</li>
     <li>더 자세한 설명을 프로그램 내부의 도움말을 참고해주세요.</li>
 </ul>
+
+## 프로그램 설치 전 해야 할 것
+<p> 가상환경을 사용할 것을 권장합니다.</p>
+<p>
+  명령어를 통해 필요한 라이브러리들을 설치해주세요:
+  ```
+  pip install beautifulsoup4
+  pip install selenium
+  pip install requests
+  
+  ```
+</p>
