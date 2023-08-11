@@ -9,7 +9,7 @@ version: 3.9.7
 <p> 여러 음원 사이트에서 원하는 곡을 편하게 검색하고자 만들어진 프로그램입니다.</p>
 
 ## 실행 준비
-<p> 가상환경을 사용할 것을 권장합니다. <a href="https://sdc-james.gitbook.io/onebook/2./2.1./2.1.1.", target = "_blank">conda 가상환경 설치하기</p>
+<p> 가상환경을 사용할 것을 권장합니다. <a href="https://sdc-james.gitbook.io/onebook/2./2.1./2.1.1.", target = "_blank">conda 가상환경 설치하기</a></p>
 <p>프로그램 실행을 위해 <b>main.py</b>, :file_folder:<b>img_resource</b>를 다운로드해주세요.</p>
 <p>
   명령어를 통해 필요한 라이브러리들을 설치해주세요:
