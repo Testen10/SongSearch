@@ -14,10 +14,10 @@
 <p> 가상환경을 사용할 것을 권장합니다.</p>
 <p>
   명령어를 통해 필요한 라이브러리들을 설치해주세요:
-  ```
+</p>
+```
   pip install beautifulsoup4
   pip install selenium
   pip install requests
   
   ```
-</p>
